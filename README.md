@@ -1,0 +1,2 @@
+# Elixir Enum.each and List Immutability
+This example demonstrates a common misconception in Elixir: lists are immutable.  Attempting to modify a list in place within an `Enum.each` loop will not alter the original list. This repository shows the bug and the solution using `Enum.filter`.
